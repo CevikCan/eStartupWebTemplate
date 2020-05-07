@@ -1,0 +1,148 @@
+@media only screen and (min-width: 991px) and (max-width: 1500px) {
+  .container {
+    width: 90%; }
+
+  #sectionContact .container .sectionContainer .addressItem {
+    width: 20%; }
+  #sectionContact .container .sectionContainer .inputGroup {
+    width: 50%; }
+
+  footer .footerContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px; }
+    footer .footerContainer .footerLogo {
+      width: 100%; }
+    footer .footerContainer .footerItemContainer {
+      width: 100%; } }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 90%; }
+
+  header #bars {
+    display: block; }
+  header .menu {
+    display: none; }
+
+  #sectionAbout .sectionContainer .sectionItem:nth-child(1) {
+    width: 30%; }
+  #sectionAbout .sectionContainer .sectionItem:nth-child(2) {
+    width: 55%; }
+
+  #sectionFeatures .sectionContainer .sectionItem {
+    width: 45%; }
+
+  #sectionTeam .sectionContainer {
+    flex-wrap: wrap; }
+    #sectionTeam .sectionContainer .sectionItem {
+      width: 40%;
+      margin-bottom: 30px; }
+  #sectionTeam .sliderContainer {
+    width: 100%; }
+
+  #sectionPricing .sectionContainer {
+    flex-wrap: wrap;
+    justify-content: center; }
+    #sectionPricing .sectionContainer .sectionCard {
+      padding: 60px;
+      margin: 0 20px 40px 0; }
+
+  #sectionBlog .sectionContainer {
+    flex-wrap: wrap; }
+    #sectionBlog .sectionContainer .sectionCard {
+      width: 45%;
+      margin-bottom: 30px; }
+
+  #sectionContact .container .sectionContainer .addressItem {
+    width: 30%; }
+  #sectionContact .container .sectionContainer .inputGroup {
+    width: 50%; }
+
+  footer .footerContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px; }
+    footer .footerContainer .footerLogo {
+      width: 100%; }
+    footer .footerContainer .footerItemContainer {
+      width: 100%; } }
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 90%; }
+
+  .sectionContainer {
+    flex-direction: column; }
+
+  header #bars {
+    display: block; }
+  header .menu {
+    display: none; }
+
+  #sectionHome .sectionHeader h1 {
+    font-size: 28px; }
+  #sectionHome .sectionHeader p {
+    font-size: 15px; }
+  #sectionHome .sectionHeader img {
+    width: 100%; }
+
+  #sectionSimple .sectionContainer .sectionItem {
+    padding: 0; }
+
+  #sectionAbout .sectionContainer .sectionItem:nth-child(1) {
+    width: 100%; }
+    #sectionAbout .sectionContainer .sectionItem:nth-child(1) img {
+      height: auto; }
+  #sectionAbout .sectionContainer .sectionItem:nth-child(2) {
+    width: 100%; }
+
+  #sectionFeatures .sectionContainer .sectionItem {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px; }
+
+  #sectionTeam .sectionContainer .sectionItem {
+    width: 100%;
+    margin-bottom: 30px; }
+    #sectionTeam .sectionContainer .sectionItem img {
+      height: auto; }
+  #sectionTeam .sliderContainer {
+    width: 100%; }
+
+  #sectionPricing .sectionContainer .sectionCard {
+    margin-bottom: 40px; }
+
+  #sectionBlog .sectionContainer .sectionCard {
+    width: 100%;
+    margin-bottom: 40px; }
+
+  #sectionSubscribe .sectionContainer {
+    padding: 50px 0 50px 0; }
+    #sectionSubscribe .sectionContainer .subscribeGroup {
+      width: 100%; }
+      #sectionSubscribe .sectionContainer .subscribeGroup .inputSubscribe {
+        flex-direction: column; }
+        #sectionSubscribe .sectionContainer .subscribeGroup .inputSubscribe button {
+          width: 100%; }
+
+  #sectionContact .container {
+    align-items: flex-start; }
+    #sectionContact .container .sectionContainer {
+      flex-direction: column; }
+      #sectionContact .container .sectionContainer .addressItem {
+        width: 50%; }
+      #sectionContact .container .sectionContainer .socialMedia {
+        margin-top: 10px !important; }
+      #sectionContact .container .sectionContainer .inputGroup {
+        width: 100%;
+        margin: 20px 0 0 0; }
+
+  footer .footerContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px; }
+    footer .footerContainer .footerLogo {
+      width: 100%; }
+    footer .footerContainer .footerItemContainer {
+      flex-direction: column; } }
+
+/*# sourceMappingURL=responsive.css.map */
